@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap';
+
+:root {
+  background-color: #fff;
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1;
+  text-rendering: optimizelegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-size: 1rem;
+  place-items: center;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
